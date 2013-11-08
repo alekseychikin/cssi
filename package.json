@@ -1,0 +1,43 @@
+{
+  "name": "grunt-cssi",
+  "description": "Concat css-files to css-file with @import lines",
+  "version": "0.1.0",
+  "homepage": "https://github.com/makingoff/cssi/",
+  "author": {
+    "name": "makingoff <mail@makingoff.name>",
+    "email": "mail@makingoff.name",
+    "url": "http://makingoff.name/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/makingoff/cssi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/makingoff/cssi/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://makingoff.name/projects/cssi//blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": "0.4.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
